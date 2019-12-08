@@ -1,0 +1,198 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+}
+
+@media only screen and (max-width: 425px) {
+  .app {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029;
+    border: 2px solid #C7972C;
+    border-radius: 10px;
+    opacity: 1;
+  }
+  
+  .logo {
+    position: relative;
+    top: 5vh;
+    left: 5vw;
+    width: 90%;
+    height: 9vh;
+    background: transparent url('../img/casewarelogo.png') 0% 0% no-repeat padding-box;
+    background-size: 50vmin;
+    opacity: 1;
+  }
+  
+  .seatLookup {
+    position: relative;
+    top: 13%;
+    width: 65%;
+    height: 10%;
+    margin: 0% 17.5%;
+    text-align: center;
+    font-size: 9vmin;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    letter-spacing: 0;
+    color: #3B3939D6;
+    opacity: 1;
+  }
+  
+  #textbox {
+    position: absolute;
+    top: 35vh;
+    width: 70vw;
+    height: 12vh;
+    margin: 0 15vw;
+    padding: 0 5%;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 3px 3px 6px #00000029;
+    border: 1px solid #707070;
+    opacity: 1;
+    font-size: 6vmin;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(85,85,85);
+  }
+  
+  #submit {
+    position: absolute;
+    top: 55vh;
+    width: 30vw;
+    margin: 0 35vw;
+    height: 8vh;
+    background: #0885AC 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029;
+    border: none;
+    opacity: 1;
+    font-size: 5vmin;
+    color: white;
+  }
+  .resultMessage {
+    color: rgb(24, 115, 207);
+    text-align: center;
+  }
+  
+  .failureMessage {
+    color: red;
+    text-align: center;
+  }
+  
+  #employeeDetails {
+    position: relative;
+    top: 55vh;
+    font-size: 5vmin;
+  }
+}
+
+@media only screen and (min-width: 425px) {
+  .background {
+    width: 100vw;
+    height: 100vh;
+    background: transparent linear-gradient(247deg, #0684AC 0%, #0684AC66 100%) 0% 0% no-repeat padding-box;
+    border: 1px solid #707070;
+    opacity: 1;
+  }
+
+  .app {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: 25%;
+    height: 65%;
+    margin: 8% 37.5%;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029;
+    border: 2px solid #C7972C;
+    border-radius: 10px;
+    opacity: 1;
+  }
+  
+  .logo {
+    position: relative;
+    top: 5%;
+    left: 5%;
+    width: 45%;
+    height: 15%;
+    background: transparent url('../img/casewarelogo.png') 0% 0% no-repeat padding-box;
+    background-size: 100%;
+    opacity: 1;
+  }
+  
+  .seatLookup {
+    position: relative;
+    top: 3%;
+    width: 65%;
+    height: 10%;
+    margin: 0% 17.5%;
+    text-align: center;
+    font-size: 3.75vmin;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    color: #3B3939D6;
+    opacity: 1;
+  }
+  
+  #textbox {
+    position: relative;
+    width: 70%;
+    height: 120%;
+    margin: 0 15%;
+    padding: 0 5%;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 3px 3px 6px #00000029;
+    border: 1px solid #707070;
+    opacity: 1;
+    font-size: 2.25vmin;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(85,85,85);
+  }
+  
+  #submit {
+    position: relative;
+    top: 6vmin;
+    width: 25%;
+    height: 85%;
+    margin: 1% 37.5%;
+    background: #0885AC 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029;
+    border: none;
+    opacity: 1;
+    font-size: 2vw;
+    font-size: 2vh;
+    color: white;
+  }
+  .resultMessage {
+    color: rgb(24, 115, 207);
+    text-align: center;
+    font-size: 2vmin;
+  }
+  
+  .failureMessage {
+    color: red;
+    text-align: center;
+    font-size: 2vmin;
+  }
+  
+  #employeeDetails {
+    overflow: hidden;
+    position: relative;
+    top: 40%;
+  }
+
+  #searchForm {
+    position: relative;
+    top: 8%;
+    height: 9%;
+  }
+}
+
+
+
+
